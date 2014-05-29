@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DMDAid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_details1">Details1</string>
+    <string name="title_activity_upload_record">UploadRecord</string>
+    <string name="add_image">Add Image</string>
+    <string name="title_activity_full_screen_view">FullScreenViewActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_report_list">Reports</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_medications">Medications</string>
+    <string name="title_activity_new_medication">New Medication</string>
+
+    <string-array name="units">
+        <item>mg</item>
+        <item>ml</item>
+        <item>units</item>
+        <item>puffs</item>
+        <item>tablets</item>
+        <item>mg/kg</item>
+    </string-array>
+    <string-array name="timesper">
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+        <item>PRN</item>
+    </string-array>
+
+    <string name="title_activity_medication_view">Medication Record</string>
+
+</resources>

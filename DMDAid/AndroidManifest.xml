@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dmdaid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.aware.READ_CONTEXT_DATA" />
+    <uses-permission android:name="com.aware.WRITE_CONTEXT_DATA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.dmdaid.MenuList"
+            android:label="@string/app_name" >
+
+            <!--
+            intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.example.dmdaid.Details1"
+            android:label="@string/title_activity_details1"
+            android:parentActivityName="android.app.ListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.ListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.reports.ReportDisplay"
+            android:label="@string/title_activity_upload_record" >
+        </activity>
+        <activity
+            android:name="com.example.reports.FullScreenViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_full_screen_view"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.example.reports.ReportList"
+            android:label="@string/title_activity_report_list" >
+        </activity>
+        <activity
+            android:name="com.example.dmdaid.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.example.restbackend.RestIntentService" >
+        </service>
+
+        <activity
+            android:name="com.example.dmdaid.MedicationList"
+            android:label="@string/title_activity_medications" >
+        </activity>
+        <activity
+            android:name="com.example.dmdaid.NewMedication"
+            android:label="@string/title_activity_new_medication" >
+        </activity>
+        <activity
+            android:name="com.example.dmdaid.MedicationView"
+            android:label="@string/title_activity_medication_view" >
+        </activity>
+    </application>
+
+</manifest>

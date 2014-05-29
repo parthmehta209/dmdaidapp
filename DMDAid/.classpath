@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="/home/parth/Downloads/apache-mime4j-0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/parth/Downloads/httpmime-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/parth/Development/649/ElevatorProject/aware_framework_v2-dev.r316/bin/aware_framework_v2.jar" sourcepath="/aware_framework_v2/src"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
